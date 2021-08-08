@@ -1,0 +1,388 @@
+        /* Intruções Globais */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        h2 {
+            font-family: 'Allura', cursive;
+            text-align: center;
+            color: #fff;
+            font-size: 48px;
+            font-weight: 100;
+            margin: 0;
+        }
+        
+        p {
+            color: #8190C7;
+        }
+        
+        .container {
+            width: 1024px;
+        }
+        /* Cabeçalho Início*/
+        
+        header {
+            width: 100%;
+            background-color: #192347;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cabecalho {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo p {
+            font-family: 'Allura', cursive;
+            font-size: 45px;
+            margin: 0;
+            color: #fff;
+        }
+        
+        .btn-cabecalho {
+            text-decoration: none;
+            border: 1px solid transparent;
+            border-radius: 50px;
+            padding: 5px 20px;
+            margin: 0px 10px;
+            color: #8190C7;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .bntctt {
+            border: 1px solid #8190C7;
+            color: #8190C7;
+            margin-left: 10px;
+            text-decoration: none;
+            border-radius: 50px;
+            padding: 5px 20px;
+        }
+        /* Cabeçalho Efeitos */
+        
+        .btn-cabecalho:hover {
+            border: 1px solid #fff;
+            border-radius: 50px;
+            transition: 0.8s;
+            padding: 5px 20px;
+        }
+        
+        .bntctt:hover {
+            transition: 0.8s;
+            background-color: #8190C7;
+            color: #192347;
+        }
+        /* Apresentação Início */
+        
+        .apresentacao {
+            width: 100%;
+            background-color: #192347;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .apresentacao_container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+        
+        .apres_titulo {
+            font-weight: 300;
+            color: #8190C7;
+            font-size: 24px;
+        }
+        
+        .apresent_img {
+            width: 330px;
+            margin-left: 80px;
+        }
+        
+        .social img {
+            width: 38px;
+            margin-right: 8px;
+            border: 1px solid #8190C7;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        .social a {
+            text-decoration: none;
+        }
+        /*Sobre Início*/
+        
+        #sobre {
+            width: 100%;
+            background-color: #2B3C7A;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #sobre img {
+            width: 200px;
+            margin: 25px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        
+        .conteudo_sobre {
+            margin: 0 auto;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h3 {
+            color: #8190C7;
+            margin: 5px;
+        }
+        
+        #sobre ul {
+            margin: 5px;
+            padding-left: 20px;
+        }
+        
+        #sobre ul li {
+            color: #8190C7
+        }
+        /* Projetos Início */
+        
+        #projetos {
+            background-color: #192347;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .conteudo_projetos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .card {
+            width: 250px;
+            background-color: #2B3C7A;
+            height: 250px;
+            border-radius: 5px;
+            color: #8190C7;
+            margin: 20px;
+        }
+        
+        .card figure {
+            display: flex;
+            align-items: space-around;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        
+        .card img {
+            padding: 5px;
+            border-radius: 50%;
+        }
+        
+        .card figcaption {
+            margin-top: 20px;
+        }
+        
+        .card a {
+            width: 100%;
+            height: 25px;
+            text-decoration: none;
+            color: #8190C7;
+        }
+        
+        .card img:hover {
+            border: 1px solid #fff;
+            cursor: pointer;
+            transition: 0.8s;
+            border-radius: 50%;
+        }
+        /* Contato Início */
+        
+        #contato {
+            width: 100%;
+            background-color: #2B3C7A;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .formulario {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        #contato input,
+        textarea {
+            background-color: #2B3C7A;
+            border: 2px solid #192347;
+            border-radius: 50px;
+            margin: 10px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            width: 300px;
+            color: #8190C7;
+        }
+        
+        .btn-enviar {
+            width: 120px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            background-color: #192347;
+            color: #8190C7;
+            font-family: 'Poppins', sans-serif;
+            margin: 15px 0 0 0;
+        }
+        
+        #contato textarea {
+            border: 2px solid #192347;
+            border-radius: 5px;
+        }
+        /*Contato Efeitos*/
+        
+        #contato textarea::placeholder,
+        #contato input::placeholder {
+            color: #8190C7
+        }
+        
+        #contato input:hover,
+        #contato textarea:hover {
+            border-color: #8190C7;
+            transition: 1s;
+        }
+        
+        #contato input:focus,
+        #contato textarea:focus {
+            outline: none;
+            border-color: #8190C7;
+        }
+        
+        .btn-enviar:hover {
+            cursor: pointer;
+            background-color: #8190C7;
+            color: #192347;
+            transition: 0.5s;
+        }
+        /* Footer Início */
+        
+        footer {
+            background-color: #192347;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        footer p {
+            margin: 0;
+            font-size: 12px;
+        }
+        /* Responsividade */
+        
+        @media (max-width: 800px) {
+            .container {
+                width: 600px;
+            }
+            /*Apresentação Resposivo*/
+            .apresent_img {
+                width: 200px;
+                margin-left: 5px;
+            }
+            /*Sobre Resposivo*/
+            #sobre {
+                padding: 15px;
+            }
+            #sobre img {
+                width: 150px;
+            }
+            .conteudo_sobre {
+                width: 100%;
+            }
+            /*Projetos Resposivo*/
+            .conteudo_projetos {
+                flex-wrap: wrap;
+            }
+        }
+        
+        @media (max-width: 500px) {
+            .container {
+                width: 390px;
+            }
+            /*Cabeçalho Resposivo*/
+            .cabecalho {
+                justify-content: space-around;
+            }
+            .btn-cabecalho {
+                margin: 0px;
+                padding: 10px;
+            }
+            .btn-cabecalho:hover {
+                padding: 10px;
+            }
+            .bntctt {
+                margin-left: 0px;
+            }
+            /*Apresentação Resposivo*/
+            .apresent_img {
+                width: 180px;
+                margin: 30px 0px 0px 0px;
+            }
+            .apresentacao_container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 10px;
+                text-align: center;
+            }
+            /*Sobre Resposivo*/
+            #sobre {
+                padding: 10px;
+            }
+            #sobre img {
+                width: 150px;
+                margin: 5px;
+            }
+            .apres_titulo {
+                margin: 5px;
+            }
+            .conteudo_sobre {
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+            }
+            .texto {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
