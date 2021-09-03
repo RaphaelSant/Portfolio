@@ -386,3 +386,19 @@
                 flex-direction: column;
             }
         }
+
+        /* Personalizando Scroll Bar */
+
+        body::-webkit-scrollbar {
+            width: 20px;           
+          }
+          
+          body::-webkit-scrollbar-track {
+            background: #8190C7;       
+          }
+          
+          body::-webkit-scrollbar-thumb {
+            background-color: #192347;    
+            border-radius: 20px;     
+            border: 2px solid #2B3C7A;  
+          }
